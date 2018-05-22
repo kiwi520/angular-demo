@@ -97,13 +97,15 @@ export class TreesComponent implements OnInit {
                 },
                 {
                   checked: false,
-                  hasChildren: true,
+                  hasChildren: false,
+                  children: [],
                   halfChecked: false,
                   name: '舜耕街道',
                 },
                 {
                   checked: false,
-                  hasChildren: true,
+                  hasChildren: false,
+                  children: [],
                   halfChecked: false,
                   name: '舜玉路街道',
                 },
@@ -111,7 +113,8 @@ export class TreesComponent implements OnInit {
             },
             {
               checked: false,
-              hasChildren: true,
+              hasChildren: false,
+              children: [],
               halfChecked: false,
               name: '历山区',
             },
@@ -123,37 +126,43 @@ export class TreesComponent implements OnInit {
               children: [
                 {
                   checked: false,
-                  hasChildren: true,
+                  hasChildren: false,
+                  children: [],
                   halfChecked: false,
                   name: '趵突泉街道',
                 },
                 {
                   checked: false,
-                  hasChildren: true,
+                  hasChildren: false,
+                  children: [],
                   halfChecked: false,
                   name: '大明湖街道',
                 },
                 {
                   checked: false,
-                  hasChildren: true,
+                  hasChildren: false,
+                  children: [],
                   halfChecked: false,
                   name: '甸柳新村街道',
                 },
                 {
                   checked: false,
-                  hasChildren: true,
+                  hasChildren: false,
+                  children: [],
                   halfChecked: false,
                   name: '东关街道',
                 },
                 {
                   checked: false,
-                  hasChildren: true,
+                  hasChildren: false,
+                  children: [],
                   halfChecked: false,
                   name: '解放路街道',
                 },
                 {
                   checked: false,
-                  hasChildren: true,
+                  hasChildren: false,
+                  children: [],
                   halfChecked: false,
                   name: '泉城路街道',
                 },
@@ -161,7 +170,8 @@ export class TreesComponent implements OnInit {
             },
             {
               checked: false,
-              hasChildren: true,
+              hasChildren: false,
+              children: [],
               halfChecked: false,
               name: '高新区',
             },
@@ -175,25 +185,29 @@ export class TreesComponent implements OnInit {
           children: [
             {
               checked: false,
-              hasChildren: true,
+              hasChildren: false,
+              children: [],
               halfChecked: false,
               name: '四方区',
             },
             {
               checked: false,
-              hasChildren: true,
+              hasChildren: false,
+              children: [],
               halfChecked: false,
               name: '崂山区',
             },
             {
               checked: false,
-              hasChildren: true,
+              hasChildren: false,
+              children: [],
               halfChecked: false,
               name: '李沧区',
             },
             {
               checked: false,
-              hasChildren: true,
+              hasChildren: false,
+              children: [],
               halfChecked: false,
               name: '城阳区',
             },
@@ -207,25 +221,29 @@ export class TreesComponent implements OnInit {
           children: [
             {
               checked: false,
-              hasChildren: true,
+              hasChildren: false,
+              children: [],
               halfChecked: false,
               name: '河东区',
             },
             {
               checked: false,
-              hasChildren: true,
+              hasChildren: false,
+              children: [],
               halfChecked: false,
               name: '罗庄区',
             },
             {
               checked: false,
-              hasChildren: true,
+              hasChildren: false,
+              children: [],
               halfChecked: false,
               name: '兰山区',
             },
             {
               checked: false,
-              hasChildren: true,
+              hasChildren: false,
+              children: [],
               halfChecked: false,
               name: '北城新区',
             },
@@ -234,6 +252,7 @@ export class TreesComponent implements OnInit {
         {
           checked: false,
           hasChildren: false,
+          children: [],
           halfChecked: false,
           name: '日照',
         },
@@ -253,25 +272,29 @@ export class TreesComponent implements OnInit {
           children: [
             {
               checked: false,
-              hasChildren: true,
+              hasChildren: false,
+              children: [],
               halfChecked: false,
               name: '东十条',
             },
             {
               checked: false,
-              hasChildren: true,
+              hasChildren: false,
+              children: [],
               halfChecked: false,
               name: '东单',
             },
             {
               checked: false,
-              hasChildren: true,
+              hasChildren: false,
+              children: [],
               halfChecked: false,
               name: '王府井',
             },
             {
               checked: false,
-              hasChildren: true,
+              hasChildren: false,
+              children: [],
               halfChecked: false,
               name: '东四',
             },
@@ -285,25 +308,29 @@ export class TreesComponent implements OnInit {
           children: [
             {
               checked: false,
-              hasChildren: true,
+              hasChildren: false,
+              children: [],
               halfChecked: false,
               name: '西十条',
             },
             {
               checked: false,
-              hasChildren: true,
+              hasChildren: false,
+              children: [],
               halfChecked: false,
               name: '西单',
             },
             {
               checked: false,
-              hasChildren: true,
+              hasChildren: false,
+              children: [],
               halfChecked: false,
               name: '北海',
             },
             {
               checked: false,
-              hasChildren: true,
+              hasChildren: false,
+              children: [],
               halfChecked: false,
               name: '西四',
             },
@@ -317,25 +344,29 @@ export class TreesComponent implements OnInit {
           children: [
             {
               checked: false,
-              hasChildren: true,
+              hasChildren: false,
+              children: [],
               halfChecked: false,
               name: '大悦城',
             },
             {
               checked: false,
-              hasChildren: true,
+              hasChildren: false,
+              children: [],
               halfChecked: false,
               name: '大屯',
             },
             {
               checked: false,
-              hasChildren: true,
+              hasChildren: false,
+              children: [],
               halfChecked: false,
               name: '望京',
             },
             {
               checked: false,
-              hasChildren: true,
+              hasChildren: false,
+              children: [],
               halfChecked: false,
               name: '北苑',
             },
@@ -344,6 +375,7 @@ export class TreesComponent implements OnInit {
         {
           checked: false,
           hasChildren: false,
+          children: [],
           halfChecked: false,
           name: '海淀',
         },
@@ -357,33 +389,38 @@ export class TreesComponent implements OnInit {
       children: [
         {
           checked: false,
-          hasChildren: true,
+          hasChildren: false,
           halfChecked: false,
           name: '南京',
+          children: [],
         },
         {
           checked: false,
-          hasChildren: true,
+          hasChildren: false,
           halfChecked: false,
           name: '徐州',
+          children: [],
         },
         {
           checked: false,
-          hasChildren: true,
+          hasChildren: false,
           halfChecked: false,
           name: '苏州',
+          children: [],
         },
         {
           checked: false,
-          hasChildren: true,
+          hasChildren: false,
           halfChecked: false,
           name: '无锡',
+          children: [],
         },
       ]
     },
     {
       checked: false,
       name: '上海',
+      children: [],
       hasChildren: false,
       halfChecked: false,
     }
@@ -409,49 +446,101 @@ export class TreesComponent implements OnInit {
     console.log(this.nodes);
     this.nodes.forEach( province => {
       if ( province.checked === true && province.halfChecked === false ) {
-         console.log(province.name + '全选了');
+        console.log(province.name + '全选了');
       } else if ( province.checked === false && province.halfChecked === false ) {
         console.log(province.name + '没有选');
       } else if ( province.checked === false && province.halfChecked === true ) {
         console.log(province.name + '省份选择了一部分');
-        province.children.forEach(city => {
+        if ( province.hasOwnProperty('children') === true ) {
+          province.children.forEach(city => {
             if (city.checked === true && city.halfChecked === false ) {
               console.log(city.name + '城市全选了');
             } else if (city.checked === false && city.halfChecked === false ) {
               console.log(city.name + '城市没有选');
             } else if (city.checked === false && city.halfChecked === true ) {
-                console.log(city.name + '城市选择了一部分');
-                city.children.forEach(county => {
-                  if (county.checked === true && county.halfChecked === false ) {
-                    console.log(county.name + '区全选了');
-                  } else if (county.checked === false && county.halfChecked === false ) {
-                    console.log(county.name + '区没有选');
-                  } else if (county.checked === false && county.halfChecked === true ) {
-                    console.log(county.name + '区选择了一部分');
-                    county.children.forEach(town => {
-                      if (town.checked === true && town.halfChecked === false ) {
-                        console.log(town.name + '街道全选了');
-                      } else if (town.checked === false && town.halfChecked === false ) {
-                        console.log(town.name + '街道没有选');
-                      } else if (town.checked === false && town.halfChecked === true ) {
-                        console.log(town.name + '街道选择了一部分');
-                        town.children.forEach(community => {
-                          if (community.checked === true && community.halfChecked === false ) {
-                            console.log(community.name + '社区全选了');
-                          } else if (community.checked === false && community.halfChecked === false ) {
-                            console.log(community.name + '社区没有选');
-                          } else if (community.checked === false && community.halfChecked === true ) {
-                            console.log(community.name + '社区选择了一部分');
-                          }
-                        });
-                      }
-                    });
-                  }
-                });
+              console.log(city.name + '城市选择了一部分');
+              city.children.forEach(county => {
+                if (county.checked === true && county.halfChecked === false ) {
+                  console.log(county.name + '区全选了');
+                } else if (county.checked === false && county.halfChecked === false ) {
+                  console.log(county.name + '区没有选');
+                } else if (county.checked === false && county.halfChecked === true ) {
+                  console.log(county.name + '区选择了一部分');
+                  county.children.forEach(town => {
+                    if (town.checked === true && town.halfChecked === false ) {
+                      console.log(town.name + '街道全选了');
+                    } else if (town.checked === false && town.halfChecked === false ) {
+                      console.log(town.name + '街道没有选');
+                    } else if (town.checked === false && town.halfChecked === true ) {
+                      console.log(town.name + '街道选择了一部分');
+                      town.children.forEach(community => {
+                        if (community.checked === true && community.halfChecked === false ) {
+                          console.log(community.name + '社区全选了');
+                        } else if (community.checked === false && community.halfChecked === false ) {
+                          console.log(community.name + '社区没有选');
+                        } else if (community.checked === false && community.halfChecked === true ) {
+                          console.log(community.name + '社区选择了一部分');
+                        }
+                      });
+                    }
+                  });
+                }
+              });
             }
-        });
+          });
+        }
+
       }
     });
+
+
+    for (var i = 0 ; i < this.nodes.length; i ++ ) {
+      if ( this.nodes[i].checked === true && this.nodes[i].halfChecked === false ) {
+        console.log(this.nodes[i].name + '全选了');
+      } else if ( this.nodes[i].checked === false && this.nodes[i].halfChecked === false ) {
+        console.log(this.nodes[i].name + '没有选');
+      } else if ( this.nodes[i].checked === false && this.nodes[i].halfChecked === true ) {
+        console.log(this.nodes[i].name + '省份选择了一部分');
+        if ( this.nodes[i].hasOwnProperty('children') === true ) {
+          for (var j = 0; j < this.nodes[i].children.length; j++) {
+            if (this.nodes[i].children[j].checked === true && this.nodes[i].children[j].halfChecked === false ) {
+              console.log(this.nodes[i].children[j].name + '城市全选了');
+            } else if (this.nodes[i].children[j].checked === false && this.nodes[i].children[j].halfChecked === false ) {
+              console.log(this.nodes[i].children[j].name + '城市没有选');
+            } else if (this.nodes[i].children[j].checked === false && this.nodes[i].children[j].halfChecked === true ) {
+              console.log(this.nodes[i].children[j].name + '城市选择了一部分');
+              for (var m = 0; m < this.nodes[i].children[j].children.length; m++) {
+                if (this.nodes[i].children[j].children[m].checked === true && this.nodes[i].children[j].children[m].halfChecked === false) {
+                  console.log(this.nodes[i].children[j].children[m].name + '区全选了');
+                } else if (this.nodes[i].children[j].children[m].checked === false && this.nodes[i].children[j].children[m].halfChecked === false) {
+                  console.log(this.nodes[i].children[j].children[m].name + '区没有选');
+                } else if (this.nodes[i].children[j].children[m].checked === false && this.nodes[i].children[j].children[m].halfChecked === true ) {
+                  console.log(this.nodes[i].children[j].children[m].name + '区选择了一部分');
+                  this.nodes[i].children[j].children[m].children.forEach(town => {
+                    if (town.checked === true && town.halfChecked === false ) {
+                      console.log(town.name + '街道全选了');
+                    } else if (town.checked === false && town.halfChecked === false ) {
+                      console.log(town.name + '街道没有选');
+                    } else if (town.checked === false && town.halfChecked === true ) {
+                      console.log(town.name + '街道选择了一部分');
+                      town.children.forEach(community => {
+                        if (community.checked === true && community.halfChecked === false ) {
+                          console.log(community.name + '社区全选了');
+                        } else if (community.checked === false && community.halfChecked === false ) {
+                          console.log(community.name + '社区没有选');
+                        } else if (community.checked === false && community.halfChecked === true ) {
+                          console.log(community.name + '社区选择了一部分');
+                        }
+                      });
+                    }
+                  });
+                }
+              }
+          }
+        }
+      }
+    }
+  }
   }
 
   onEvent(ev: any) {
