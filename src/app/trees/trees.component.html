@@ -1,0 +1,10 @@
+<div>
+  <button nz-button [nzType]="'primary'" (click)="onTree()">获取tree按钮</button>
+  <nz-tree [nzNodes]="nodes"
+           [nzCheckable]="true"
+           [nzShowLine]="true"
+           [nzAllowParentLinkage]="true"
+           [nzAllowChildLinkage]="true"
+           [nzOptions]="options"
+           (nzEvent)="onEvent($event)"></nz-tree>
+</div>
