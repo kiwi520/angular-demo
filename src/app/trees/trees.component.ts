@@ -635,20 +635,6 @@ export class TreesComponent implements OnInit {
   }
 
 
-  treeNodes(tree: any , levels: string ）{
-    if(tree ) {
-      var trees = [];
-      for (var i =0; i < tree.length; i++ ) {
-        if ( tree[i].checked === true && tree[i].halfChecked === false && tree[i].level == levels) {
-          console.log(tree.name + '全选了');
-          trees.push(tree[i].name + tree[i].level);
-        }
-      }
-      return trees;
-    }
-  }
-
-
 
   onEvent(ev: any) {
     console.log('onEvent', ev);

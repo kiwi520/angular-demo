@@ -7,11 +7,13 @@ import { NzTreeModule } from 'ng-tree-antd';
 import { NgZorroAntdModule } from 'ng-zorro-antd';
 import { AppComponent } from './app.component';
 import { TreesComponent } from './trees/trees.component';
+import { ModelssComponent } from './modelss/modelss.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TreesComponent
+    TreesComponent,
+    ModelssComponent
   ],
   imports: [
     BrowserModule,
